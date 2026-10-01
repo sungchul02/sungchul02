@@ -14,9 +14,9 @@ Undergraduate student in the Division of Advanced IT, Baekseok University, Korea
 - **Reasoning of small language models (MuTT)** — preliminary experiments
 
 ### Projects
+- [drone-sound-detection](https://github.com/sungchul02/drone-sound-detection) — drone sound detection: comparison of audio features and models (capstone)
 - [drone](https://github.com/sungchul02/drone) — drone sound detection with MFCC features and a 2D CNN (capstone)
 - [KFood](https://github.com/sungchul02/KFood) — recommends Korean dishes similar to a chosen foreign dish
-- [hanaai](https://github.com/sungchul02/hanaai) — AI kiosk CMS that drafts guide menus for unanswered questions
 
 ### Contact
 robin0307choi@gmail.com
