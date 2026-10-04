@@ -11,7 +11,7 @@ Undergraduate student in the Division of Advanced IT, Baekseok University, Korea
 
 ### Current research
 - **Context compression for small language models (HOPPER)** — first author, advisor Prof. Jin-Keun Hong; manuscript in preparation
-- **Reasoning of small language models (MuTT)** — preliminary experiments
+- **Graph-path contexts for multi-hop QA with small language models (HOPPER-G)** — follow-up to HOPPER, in progress
 
 ### Projects
 - [drone-sound-detection](https://github.com/sungchul02/drone-sound-detection) — drone sound detection: comparison of audio features and models (capstone)
