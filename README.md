@@ -23,7 +23,8 @@ Repository: [HOPPER](https://github.com/sungchul02/HOPPER) (code to be released 
 Diagnostic experiments that give seven small models gold information one piece at a time (gold evidence, intermediate facts, decomposition trees) on HotpotQA, 2WikiMultihopQA and MuSiQue. So far the main cause of failure has been distracting sentences, not missing evidence.
 
 **HOPPER-G: graph-path context construction for multi-hop QA** (in progress)
-HOPPER-G replaces the one-time query expansion of HOPPER with a path search over a document graph, where document A links to document B when a sentence in A mentions the title of B. The model gets either only the sentences on the evidence path, or the path sentences plus HOPPER sentences up to the same token budget. Methods and hypotheses are fixed on development questions before held-out evaluation. Code is not public yet.
+HOPPER-G replaces the one-time query expansion of HOPPER with a path search over a document graph, where document A links to document B when a sentence in A mentions the title of B. The model gets either only the sentences on the evidence path, or the path sentences plus HOPPER sentences up to the same token budget. Methods and hypotheses are fixed on development questions before held-out evaluation.
+Repository: [HOPPER-G](https://github.com/sungchul02/HOPPER-G) (code to be released with the paper)
 
 ### Contact
 robin0307choi@gmail.com
