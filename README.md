@@ -17,7 +17,7 @@ My focus is how to build the context a small model reads, without training any e
 **HOPPER: context compression for small language models**
 First author, with Prof. Jin-Keun Hong. Manuscript in preparation for IJIBC.
 HOPPER is a training-free sentence extraction method. It ranks sentences with BM25, expands the query once with title and capitalized words from the top-ranked sentences, and keeps the document title line of every selected sentence. Compression runs on a CPU and calls no language model.
-Repository: [hopper-context-compression](https://github.com/sungchul02/hopper-context-compression) (code will be added after the review)
+Repository: [HOPPER](https://github.com/sungchul02/HOPPER) (code to be released after the review)
 
 **Follow-up: where small models still fail on compressed contexts** (in progress)
 Diagnostic experiments that give seven small models gold information one piece at a time (gold evidence, intermediate facts, decomposition trees) on HotpotQA, 2WikiMultihopQA and MuSiQue. So far the main cause of failure has been distracting sentences, not missing evidence.
