@@ -20,7 +20,7 @@ HOPPER is a training-free sentence extraction method. It ranks sentences with BM
 Repository: [HOPPER](https://github.com/sungchul02/HOPPER) (code to be released after the review)
 
 **Follow-up: where small models still fail on compressed contexts** (in progress)
-Diagnostic experiments that give seven small models gold information one piece at a time (gold evidence, intermediate facts, decomposition trees) on HotpotQA, 2WikiMultihopQA and MuSiQue. So far the main cause of failure has been distracting sentences, not missing evidence.
+Diagnostic experiments that give seven small models gold information one piece at a time (gold evidence, intermediate facts, decomposition trees) on HotpotQA, 2WikiMultihopQA and MuSiQue. On 24 development questions, gold evidence alone beat the HOPPER context by 0.197 F1, but added to that context it gained only 0.036, so the sentences that come with the evidence matter as well.
 
 **HOPPER-G: graph-path context construction for multi-hop QA** (in progress)
 HOPPER-G replaces the one-time query expansion of HOPPER with a path search over a document graph, where document A links to document B when a sentence in A mentions the title of B. The model gets either only the sentences on the evidence path, or the path sentences plus HOPPER sentences up to the same token budget. Methods and hypotheses are fixed on development questions before held-out evaluation.
